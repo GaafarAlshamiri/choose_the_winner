@@ -1,0 +1,55 @@
+#countdown {
+    color: #0d6efd;
+    padding: 10px;
+    /* border: 1px solid;
+    border-radius: 5px; */
+}
+ 
+/* #cards{
+    display: none;
+}  */
+
+/* تنسيقات الألوان لزر اختيار الرابح */
+#winner {
+    box-shadow: 0 0 25px #0ef;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#winner:hover {
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+/* ////////////////// */
+
+
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader-con {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000eb;
+}
+
+.list-group-item {
+    background: transparent;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 50%;
+}
